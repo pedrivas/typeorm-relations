@@ -28,6 +28,8 @@ class CreateCustomerService {
       name,
       email,
     });
+
+    return customer;
   }
 }
 
